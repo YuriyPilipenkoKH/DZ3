@@ -30,6 +30,10 @@ h1,h2,h3,p,ul {
     margin-top: 0;
     margin-bottom: 0;
 }
+a>img {
+    display: block;
+}
+
 .list {
     padding: 0;
     margin: 0;
@@ -392,11 +396,19 @@ h1,h2,h3,p,ul {
 }
 .flex-element {
     display: flex;
-    width: 370px;
     
-    border: 1px solid var(--image-border);
-}
+    flex-basis: calc((100%-2*30)/3)px;
+    border: 2px solid var(--button);
 
+    
+   
+}
+/*
+flex-basis: calc(33.33%-20);
+.element {
+  flex-basis: calc((100% - кол-во маржинов в строке * значение маржина) / кол-во элементов в строке);
+}
+*/
 .image-item {
     text-decoration: none;   
     
