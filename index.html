@@ -1,168 +1,61 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">    
-    <title>Студія</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+    <title>cover letter</title>
 </head>
-<body>
+<body>   
     <header class="header">
-        <div class="container main-nav">
-            <a href="#" class="logo1">Web<span class="logo2">Studio</span></a>
-        <!--navigation-->
-        <nav>
-            <ul class="nav list">
-                <li class="nav-item">
-                    <a href="./index.html" class="top1 current">Студія</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./portfolio.html" class="top2">Портфоліо</a>
-                </li>
-                <li class="nav-item ">
-                    <a href="#" class="top3">Контакти</a>
-                </li>
+        <div class="cover__header-wrap">
+            <h1 class="cover__title">Yuriy Pilipenko</h1>
+            <ul class="cover__contacts">
+               <li class="cover__mail">
+                   <svg class="icon" width="40" height="25">
+                     <use href="./images/sprite.svg#icon-old-phone"></use>
+                   </svg>
+                   <p>+38 095 5135804</p>
+               </li>
+               <li class="cover__mail">
+                   <svg class="icon" width="40" height="25">
+                     <use href="./images/sprite.svg#icon-eemali"></use>
+                   </svg>
+                   <p>yurik2061@gmail.com</p>
+               </li>
+            
             </ul>
-        </nav>
-        <ul class="contacts list">
-            <li class="contacts-item">
-                <a href="mailto:info@devstudio.com" class="top4">info@devstudio.com</a>
-            </li>
-            <li class="contacts-item">
-                <a href="tel:+380961111111" class="top5">+38 096 111 11 11</a>
-            </li>
-        </ul>
         </div>
-    </header>
-    <!--main-->
-    <main>
-        <section class="main">
-            <div class="container">
-                <h1 class="slogan">Ефективні рішення для вашого бізнесу</h1>
-                <button type="button" class="order-button">Замовити послугу
-                </button>
-            </div>
 
-        </section>
-        <!--features-->
-        <section class="features container">
-            <h2 class="visually-hidden">Наші переваги</h2>
-            <ul class="feature-list list">
-                <li class="feature-item">
-                    <h3 class="feature">УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p class="benefit">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
-                    </p>
-                </li>
-                <li class="feature-item">
-                    <h3 class="feature">ПУНКТУАЛЬНІСТЬ</h3>
-                    <p class="benefit">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
-                    </p>
-                </li>
-                <li class="feature-item">
-                    <h3 class="feature">ПЛАНУВАННЯ</h3>
-                    <p class="benefit">Так само консультація з широким активом значною мірою зумовлює.
-                    </p> 
-                </li>
-                <li class="feature-item">
-                    <h3 class="feature">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p class="benefit">Значимість цих проблем настільки очевидна, що реалізація планових завдань.
-                    </p>
-                </li>
-            </ul>
-        </section>
-          <!--work-->
-          <section class="works container">
-            <h2 class="work">Чим ми займаємося</h2>
-            <ul class="work-list list">
-                <li class="work-item">
-                    <img
-                    src="./images/box1.jpg"
-                    alt="image description"
-                    width="370">
-                </li>
-                <li class="work-item">
-                    <img
-                    src="./images/box2.jpg"
-                    alt="image description"
-                    width="370">
-                </li>
-                <li class="work-item">
-                    <img
-                    src="./images/box3.jpg"
-                    alt="image description"
-                    width="370">
-                </li>
-            </ul>
-        </section>
-                <!--team-->
-                <section class="team">
-                    <div class="group container">
-                        <h2 class="team-title">Наша команда</h2>
-                    <ul class="team-list list">
-                        <li class="card">
-                            <img
-                            src="images/igor.jpg"
-                            alt="image description"
-                            width="270">
-                                <div class="description">
-                                    <h3 class="name">Ігор Дем'яненко</h3>
-                                    <p class="position">Product Designer</p>
-                                  </div>
-                        </li>
-                        <li class="card">
-                            <img
-                            src="images/olga.jpg"
-                            alt="image description"
-                            width="270">
-                                <div class="description">
-                                    <h3 class="name">Ольга Рєпіна</h3>
-                                    <p class="position">Frontend Developer</p>
-                                  </div>
-                        </li>
-                        <li class="card">
-                            <img
-                            src="images/mykola.jpg"
-                            alt="image description"
-                            width="270">
-                                <div class="description">
-                                    <h3 class="name">Микола Тарасов</h3>
-                                    <p class="position">Marketing</p>
-                                  </div>
-                        </li>
-                        <li class="card">
-                            <img
-                            src="images/myhailo.jpg"
-                            alt="image description"
-                            width="270">
-                                <div class="description">
-                                    <h3 class="name">Михайло Єрмаков</h3>
-                                    <p class="position">UI Designer</p>
-                                  </div>
-                        </li>
-                    </ul>
-                    </div>        
-                </section>
-    </main>
-    <!--footer-->
-    <footer class="footer">
-        <div class="container">
-            <a href="#" class="logo1-down">Web<span class="logo3">Studio</span></a>
-            <address class="address">
-                <ul class="address-list list">
-                    <li><a href="https://goo.gl/maps/1cysregupnzZVwGy7"
-                        target="_blank" rel="noreferrer noopener" 
-                        class="map">м. Київ, пр-т Лесі Українки, 26</a>
-                     </li>
-                    <li class="email"><a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111" class="tel">+38 096 111 11 11</a></li>
-                </ul>
-            </address>
-        </div>
-    </footer>  
+        <img src="images/photo.jpg" alt="user photo" class="cover__photo">
+
+    </header>
+
+<!--main-->
+
+<main class="cover__main">
+
+    <a class="cover-letter" href="./index.html">to resume</a>
+
+
+    <!--main content-->
+
+    <h3>Dear Hiring Manager,</h3>
+
+    <p>I am writing to express my strong interest in the position of Frontend Developer at [Company Name]. With my passion for web development, solid technical skills, and experience in building user-friendly and visually appealing websites, I believe I would be a valuable addition to your team.</p>
+
+    <p>I have a proven track record in frontend development, having worked on various projects where I have successfully translated designs into responsive and interactive web interfaces. I am highly proficient in HTML, CSS, and JavaScript, with a deep understanding of modern frontend frameworks such as React and Vue.js. I have a strong eye for detail and strive for pixel-perfect implementation, ensuring the highest quality user experience across different devices and screen sizes.</p>   
+
+        <p>Thank you for your time and consideration.</p>
+        
+     <span>Sincerely,</span>   
+     <span>Yuriy Pilipenko</span>   
+
+
+</main>
 </body>
 </html>
