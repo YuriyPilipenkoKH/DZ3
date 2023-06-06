@@ -396,6 +396,20 @@ body {
         font-weight: 500;
     }
 
+    .cover__link {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+
+
+    }
+    .cover__link>p {
+       
+        color: #eee;
+    }
+
 .footer {
     background-color: #1E2939;
     text-align: center;
